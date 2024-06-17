@@ -12,6 +12,7 @@ my $post_diag;
 $modules{$_} = $_ for qw(
   Alien::curl
   ExtUtils::MakeMaker
+  FFI::C
   FFI::CheckLib
   FFI::Platypus
   Test2::V0
@@ -20,8 +21,8 @@ $modules{$_} = $_ for qw(
 $post_diag = sub {
   local $@='';
   my $lib = eval {
-    require Net::Swirl::CurlVersion::FFI;
-    Net::Swirl::CurlVersion::FFI->lib;
+    require Net::LibCURL::FFI;
+    Net::LibCURL::FFI->lib;
   };
   diag "warning: $@" if $@;
   diag "lib        = @{[ $lib // 'undef' ]}";

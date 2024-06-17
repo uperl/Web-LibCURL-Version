@@ -2,17 +2,17 @@ use warnings;
 use 5.020;
 use experimental qw( postderef signatures );
 use FFI::Platypus 2.00;
-use Net::Swirl::CurlVersion::FFI;
+use Net::LibCURL::FFI;
 use FFI::C;
 
 my $ffi = FFI::Platypus->new(
   api => 2,
-  lib => [Net::Swirl::CurlVersion::FFI->lib],
+  lib => [Net::LibCURL::FFI->lib],
 );
 
 FFI::C->ffi($ffi);
 
-package Net::Swirl::CurlVersion::CurlSslBackend {
+package Net::LibCURL::Version::CurlSslBackend {
   FFI::C->struct(curl_ssl_backend => [
     id => 'enum',
     _name => 'opaque',
@@ -25,7 +25,7 @@ package Net::Swirl::CurlVersion::CurlSslBackend {
 }
 
 
-package Net::Swirl::CurlVersion {
+package Net::LibCURL::Version {
 
   # ABSTRACT: Get version information about curl
 
@@ -33,7 +33,7 @@ package Net::Swirl::CurlVersion {
 
 =head2 get_ssl_backends
 
- my @backends = Net::Swirl::CurlVersion->get_ssl_backends;
+ my @backends = Net::LibCURL::Version->get_ssl_backends;
 
 Get the list of SSL backends (as strings).
 
