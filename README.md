@@ -1,17 +1,16 @@
-# Web::LibCURL::FFI ![static](https://github.com/uperl/Web-LibCurl-Version/workflows/static/badge.svg) ![linux](https://github.com/uperl/Web-LibCurl-Version/workflows/linux/badge.svg)
+# Web::LibCURL::Version::CurlSslBackend ![static](https://github.com/uperl/Web-LibCurl-Version/workflows/static/badge.svg) ![linux](https://github.com/uperl/Web-LibCurl-Version/workflows/linux/badge.svg)
 
-Private class for Web::LibCURL
+Get version information about curl
 
-# SYNOPSIS
+# METHODS
 
+## get\_ssl\_backends
+
+```perl
+my @backends = Web::LibCURL::Version->get_ssl_backends;
 ```
-$ perldoc Web::LibCURL
-```
 
-# DESCRIPTION
-
-There is nothing to see here.  Please see the main documentation page at
-[Web::LibCURL](https://metacpan.org/pod/Web::LibCURL).
+Get the list of SSL backends (as strings).
 
 # AUTHOR
 
