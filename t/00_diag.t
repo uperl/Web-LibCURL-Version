@@ -21,8 +21,8 @@ $modules{$_} = $_ for qw(
 $post_diag = sub {
   local $@='';
   my $lib = eval {
-    require Net::LibCURL::FFI;
-    Net::LibCURL::FFI->lib;
+    require Web::LibCURL::FFI;
+    Web::LibCURL::FFI->lib;
   };
   diag "warning: $@" if $@;
   diag "lib        = @{[ $lib // 'undef' ]}";

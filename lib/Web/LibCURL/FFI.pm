@@ -1,19 +1,19 @@
-package Net::LibCURL::FFI {
+package Web::LibCURL::FFI {
 
   use warnings;
   use 5.020;
   use FFI::CheckLib 0.30 qw( find_lib_or_die );
 
-# ABSTRACT: Private class for Net::LibCURL
+# ABSTRACT: Private class for Web::LibCURL
 
 =head1 SYNOPSIS
 
- $ perldoc Net::LibCURL
+ $ perldoc Web::LibCURL
 
 =head1 DESCRIPTION
 
 There is nothing to see here.  Please see the main documentation page at
-L<Net::LibCURL>.
+L<Web::LibCURL>.
 
 =cut
 

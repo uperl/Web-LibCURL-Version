@@ -1,10 +1,10 @@
 use Test2::V0 -no_srand => 1;
-use Net::LibCURL::Version;
+use Web::LibCURL::Version;
 
 subtest 'get_ssl_backends' => sub {
 
   ok 1;
-  note $_ for Net::LibCURL::Version->get_ssl_backends;
+  note $_ for Web::LibCURL::Version->get_ssl_backends;
 
 };
 

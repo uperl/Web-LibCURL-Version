@@ -1,17 +1,17 @@
-# Net::LibCURL::FFI ![static](https://github.com/uperl/Net-LibCurl-Version/workflows/static/badge.svg) ![linux](https://github.com/uperl/Net-LibCurl-Version/workflows/linux/badge.svg)
+# Web::LibCURL::FFI ![static](https://github.com/uperl/Web-LibCurl-Version/workflows/static/badge.svg) ![linux](https://github.com/uperl/Web-LibCurl-Version/workflows/linux/badge.svg)
 
-Private class for Net::LibCURL
+Private class for Web::LibCURL
 
 # SYNOPSIS
 
 ```
-$ perldoc Net::LibCURL
+$ perldoc Web::LibCURL
 ```
 
 # DESCRIPTION
 
 There is nothing to see here.  Please see the main documentation page at
-[Net::LibCURL](https://metacpan.org/pod/Net::LibCURL).
+[Web::LibCURL](https://metacpan.org/pod/Web::LibCURL).
 
 # AUTHOR
 
