@@ -1,6 +1,17 @@
-# Net::Swirl::CurlVersion ![static](https://github.com/uperl/Net-Swirl-CurlVersion/workflows/static/badge.svg) ![linux](https://github.com/uperl/Net-Swirl-CurlVersion/workflows/linux/badge.svg)
+# Net::LibCURL::FFI ![static](https://github.com/uperl/Net-LibCurl-Version/workflows/static/badge.svg) ![linux](https://github.com/uperl/Net-LibCurl-Version/workflows/linux/badge.svg)
 
-Get version information about curl
+Private class for Net::LibCURL
+
+# SYNOPSIS
+
+```
+$ perldoc Net::LibCURL
+```
+
+# DESCRIPTION
+
+There is nothing to see here.  Please see the main documentation page at
+[Net::LibCURL](https://metacpan.org/pod/Net::LibCURL).
 
 # AUTHOR
 
